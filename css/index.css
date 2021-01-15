@@ -78,13 +78,13 @@ header .menu{
 
 @media (min-width:660 px){
 .device {
-    display: grid;
+    display: flex;
 grid-template-columns:1fr 1fr;
 
 }
 }
 .device{
-    display: flex;
+    display: grid;
     flex-direction: row-reverse;
     background:rgb(29, 71, 89);
     background-size: cover;
@@ -96,4 +96,15 @@ grid-template-columns:1fr 1fr;
     background-size: cover;
     background-position: center;
 
+}
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.7em;
+    color:white;
+    text-align: center;
+    transition: color green;
+    background-color: green;
 }
