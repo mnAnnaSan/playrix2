@@ -2,33 +2,98 @@ h1 {
     color:white;
     font-family: 'Playfair Display', serif;
 }
-.logo{
+nav {
+background-size: cover;
+    background-position: center;
+    min-height: 25.69321379310345%;
+    width: auto;
+    height: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    float: 1px;
+     background:rgb(29, 71, 89);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+
+   
+#burger-checkbox{
+    display: none;
 
 }
-.li{
-    display: flex;
-    color:white;
+.burger-icon{
+    font-size: 3rem;
+    color: white;
+}
+
+header .menu{
+    display:inline-block;
 
 }
-body{
-    background-color: blue;
+
+.main-page {
+    background-image: url(../img/fonstart.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 25.69321379310345%;
+    width: auto;
+    height: auto;
+    display: row-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    float: 1px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
-.button{
-    color:green;
-    border-radius:solid;
+
+
+
+
+.girl {
+    object-position:74.532% 50%;
+    margin: 470 460 0 0;
+   }
+
+.text-command{
+    display: block;
+    text-align:center;
+
+
+}
+
+.gajet{
+    background:rgb(29, 71, 89);
+
+}
+
+.gs1{
+    object-fit:cover;
+    padding-top:56.75%;
+    border-radius:5.2em;
+}
+
+@media (min-width:660 px){
+.device {
+    display: grid;
+grid-template-columns:1fr 1fr;
+
+}
 }
 .device{
     display: flex;
+    flex-direction: row-reverse;
+    background:rgb(29, 71, 89);
+    background-size: cover;
+    background-position: center; 
+}
 
-}
 .topgames{
-    color:white,yellow;
-}
-.MostPopularGames{
-display: flex;
-}
-.by{
-    display: flex;
-   
+    background-image: url(../img/fonsp.png);
+    background-size: cover;
+    background-position: center;
+
 }
