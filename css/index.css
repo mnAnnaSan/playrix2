@@ -48,6 +48,8 @@
 
 
 .navbar navbar-expand-lg navbar-light bg-light {
+    display: block;
+    text-decoration: none;
     position: relative;
     width: 60px;
     height: 60px;
@@ -108,12 +110,7 @@ cursor: pointer;
 
    
 
-.nav-item 
-.face.png{
-    width: 30px;
-    height: 30px;
-    color: #f9ba38;
-}
+
 
 
 
